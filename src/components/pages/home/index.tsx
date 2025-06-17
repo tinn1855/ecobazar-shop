@@ -1,3 +1,12 @@
+import { Header } from '@/components/common/header';
+import { TopBar } from '@/components/common/top-bar';
+
 export function Home() {
-  return <div>home page</div>;
+  return (
+    <div>
+      <TopBar />
+      <div className="border-b-2"></div>
+      <Header />
+    </div>
+  );
 }
