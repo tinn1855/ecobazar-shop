@@ -1,4 +1,4 @@
-import { ChevronDown, PhoneCall } from 'lucide-react';
+import { PhoneCall } from 'lucide-react';
 
 export function NavBar() {
   return (

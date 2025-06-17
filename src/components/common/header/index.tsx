@@ -1,6 +1,4 @@
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Heart, Search, ShoppingBag, Tally1 } from 'lucide-react';
+import { Heart, Search, ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Header() {
@@ -8,7 +6,7 @@ export function Header() {
     <header className="container mx-auto px-5 py-7 text-sm">
       <div className="flex justify-between items-center">
         <Link to="/">
-          <img src="/src/assets/img/logo.png" alt="" />
+          <img src="/img/logo.png" alt="" />
         </Link>
         {/* <div className="flex items-center ">
           <Search />
