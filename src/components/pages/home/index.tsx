@@ -4,6 +4,7 @@ import { TopBar } from '@/components/common/top-bar';
 import { BenefitsSection } from '@/components/molecules/benefits-section';
 import { Categories } from '@/components/molecules/categories';
 import { HeroSection } from '@/components/molecules/hero-section';
+import { Products } from '@/components/molecules/products';
 
 export function Home() {
   return (
@@ -15,6 +16,7 @@ export function Home() {
       <HeroSection />
       <BenefitsSection />
       <Categories />
+      <Products />
     </div>
   );
 }
