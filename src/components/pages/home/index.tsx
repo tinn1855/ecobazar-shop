@@ -2,6 +2,7 @@ import { Header } from '@/components/common/header';
 import { NavBar } from '@/components/common/nav-bar';
 import { TopBar } from '@/components/common/top-bar';
 import { BenefitsSection } from '@/components/molecules/benefits-section';
+import { Categories } from '@/components/molecules/categories';
 import { HeroSection } from '@/components/molecules/hero-section';
 
 export function Home() {
@@ -13,6 +14,7 @@ export function Home() {
       <NavBar />
       <HeroSection />
       <BenefitsSection />
+      <Categories />
     </div>
   );
 }
