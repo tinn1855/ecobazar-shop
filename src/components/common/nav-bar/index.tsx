@@ -2,7 +2,7 @@ import { PhoneCall } from 'lucide-react';
 
 export function NavBar() {
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-foreground ">
       <div className="container mx-auto px-5 py-5 flex justify-between items-center">
         <ul className="flex space-x-8 text-gray-300">
           <li>

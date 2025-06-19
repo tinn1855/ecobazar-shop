@@ -49,6 +49,21 @@ module.exports = {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
         },
+        blue: {
+          DEFAULT: 'hsl(var(--blue))',
+          foreground: 'hsl(var(--blue-foreground))',
+        },
+        black: {
+          DEFAULT: 'hsl(var(--black))',
+          foreground: 'hsl(var(--black-foreground))',
+        },
+        gray: {
+          DEFAULT: 'hsl(var(--gray))',
+        },
+        orange: {
+          DEFAULT: 'hsl(var(--orange))',
+          foreground: 'hsl(var(--orange-foreground))',
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
