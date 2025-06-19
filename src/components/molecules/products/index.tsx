@@ -89,7 +89,7 @@ const products = [
 
 export function Products() {
   return (
-    <section className="container mx-auto px-5 py-6">
+    <section>
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-semibold">Popular Products</h2>
         <Link

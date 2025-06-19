@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
   return (
-    <section className="container mx-auto px-5 py-6">
+    <section className=" py-6">
       <div className="grid grid-cols-3 gap-4">
         <div className="col-span-2">
           <div className="relative h-[600px] w-full rounded-xl overflow-hidden">

@@ -5,6 +5,7 @@ import { BenefitsSection } from '@/components/molecules/benefits-section';
 import { Categories } from '@/components/molecules/categories';
 import { HeroSection } from '@/components/molecules/hero-section';
 import { Products } from '@/components/molecules/products';
+import { PromotionsSection } from '@/components/molecules/promotions-section';
 
 export function Home() {
   return (
@@ -13,10 +14,13 @@ export function Home() {
       <div className="border-b-2"></div>
       <Header />
       <NavBar />
-      <HeroSection />
-      <BenefitsSection />
-      <Categories />
-      <Products />
+      <div className="container mx-auto px-5">
+        <HeroSection />
+        <BenefitsSection />
+        <Categories />
+        <Products />
+        <PromotionsSection />
+      </div>
     </div>
   );
 }

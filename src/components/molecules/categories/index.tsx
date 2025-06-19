@@ -21,7 +21,7 @@ const categories = [
 
 export function Categories() {
   return (
-    <section className="container mx-auto px-5 py-6">
+    <section className="py-6">
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-semibold">Popular Categories</h2>
         <Link to="/categories" className="flex items-center gap-2 text-primary">

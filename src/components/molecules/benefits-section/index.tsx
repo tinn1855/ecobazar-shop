@@ -1,6 +1,6 @@
 export function BenefitsSection() {
   return (
-    <section className="container mx-auto px-5 ">
+    <section>
       <div className="p-10 flex justify-between bg-white rounded-lg shadow-lg ">
         <div className="flex items-center gap-4">
           <svg
