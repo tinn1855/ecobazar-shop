@@ -59,6 +59,7 @@ module.exports = {
         },
         gray: {
           DEFAULT: 'hsl(var(--gray))',
+          foreground: 'hsl(var(--gray-foreground))',
         },
         orange: {
           DEFAULT: 'hsl(var(--orange))',
