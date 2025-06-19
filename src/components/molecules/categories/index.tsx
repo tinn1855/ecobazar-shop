@@ -45,7 +45,7 @@ export function Categories() {
                 alt={category.name}
                 className="w-full object-cover mb-4 rounded"
               />
-              <h3 className="text-center font-medium text-lg">
+              <h3 className="text-center font-medium hover:text-primary text-lg">
                 {category.name}
               </h3>
             </Link>

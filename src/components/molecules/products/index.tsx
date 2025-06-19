@@ -135,7 +135,7 @@ export function Products() {
                     </div>
                   </div>
                   <div>
-                    <button className="bg-gray-200 p-3 rounded-full">
+                    <button className="bg-gray-200 hover:bg-primary hover:text-white p-3 rounded-full">
                       <ShoppingCart size={20} />
                     </button>
                   </div>
