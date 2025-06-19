@@ -1,3 +1,4 @@
+import { HeadingH3 } from '@/components/ui/heading-h3';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -21,13 +22,9 @@ const categories = [
 export function Categories() {
   return (
     <section className="container mx-auto px-5 py-6">
-      {/* Header */}
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-semibold">Popular Categories</h2>
-        <Link
-          to="/categories"
-          className="flex items-center gap-2 text-primary hover:underline"
-        >
+        <Link to="/categories" className="flex items-center gap-2 text-primary">
           View All <ArrowRight size={18} />
         </Link>
       </div>
@@ -45,9 +42,9 @@ export function Categories() {
                 alt={category.name}
                 className="w-full object-cover mb-4 rounded"
               />
-              <h3 className="text-center font-medium hover:text-primary text-lg">
+              <HeadingH3 className="text-center hover:text-primary">
                 {category.name}
-              </h3>
+              </HeadingH3>
             </Link>
           ))
           .slice(0, 12)}

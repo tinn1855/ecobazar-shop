@@ -1,4 +1,7 @@
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { HeadingH1 } from '@/components/ui/heading-h1';
+import { HeadingH2 } from '@/components/ui/heading-h2';
 import { ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
@@ -10,9 +13,9 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-[url('/img/home/banner.jpg')] bg-cover rounded-xl" />
             <div className="relative z-10 px-16 h-full flex items-center text-white space-y-7">
               <div className="space-y-7">
-                <h1 className="font-semibold text-5xl w-2/3">
+                <HeadingH1 className="w-2/3">
                   Fresh & Healthy Organic Food
-                </h1>
+                </HeadingH1>
                 <div className="flex items-center gap-3">
                   <svg
                     width="3"
@@ -26,9 +29,12 @@ export function HeroSection() {
                   <div className="space-y-2">
                     <p className="text-xl font-semibold">
                       Sale up to{' '}
-                      <span className="bg-orange-400 rounded-md px-3 py-1">
+                      <Badge
+                        variant={'orange'}
+                        className="text-xl font-semibold"
+                      >
                         30% OFF
-                      </span>
+                      </Badge>
                     </p>
                     <p>Free shipping on all your order.</p>
                   </div>
@@ -44,20 +50,19 @@ export function HeroSection() {
           <div className="relative h-1/2 rounded-xl overflow-hidden">
             <div className="absolute inset-0 bg-[url('/img/home/banner-2.jpg')] bg-cover scale-x-[-1]" />
             <div className="relative z-10 p-8 space-y-3 ">
-              <h2 className="font-medium tracking-wide">SUMMER SALE</h2>
-              <p className="text-3xl font-bold">75% OFF</p>
+              <p className="font-medium tracking-wide">SUMMER SALE</p>
+              <HeadingH2>75% OFF</HeadingH2>
               <p>Only Fruit & Vegetable</p>
               <Button variant={'secondary'}>
                 Shop now <ArrowRight />{' '}
               </Button>
             </div>
           </div>
-          <div className="bg-[url('/img/home/banner-3.jpg')] h-1/2 bg-cover flex items-center justify-center rounded-xl">
-            <div className="text-white text-center p-8 space-y-3">
+          <div className="bg-[url('/img/home/banner-3.jpg')] relative h-1/2 bg-cover flex items-center justify-center rounded-xl">
+            <div className="bg-[#002603CC] w-full h-full rounded-xl absolute opacity-80"></div>
+            <div className="text-white relative text-center p-10 space-y-3">
               <span className="font-medium tracking-wide">BEST DEAL</span>
-              <h2 className="font-semibold text-3xl">
-                Special Products Deal of the Month
-              </h2>
+              <HeadingH2>Special Products Deal of the Month</HeadingH2>
               <Button variant={'secondary'}>
                 Shop Now <ArrowRight />
               </Button>

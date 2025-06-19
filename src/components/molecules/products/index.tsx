@@ -91,7 +91,7 @@ export function Products() {
   return (
     <section className="container mx-auto px-5 py-6">
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-3xl font-semibold">Popular Categories</h2>
+        <h2 className="text-3xl font-semibold">Popular Products</h2>
         <Link
           to="/products"
           className="flex items-center gap-2 text-primary hover:underline"
@@ -102,7 +102,7 @@ export function Products() {
       <div className="grid grid-cols-5">
         {products
           .map((product) => (
-            <div className="col-span-1 p-4 relative  border hover:text-primary hover:shadow-md hover:shadow-primary/20 hover:border hover:border-primary transition">
+            <div className="col-span-1 p-4 relative border  hover:shadow-md hover:shadow-primary/20 hover:border hover:border-primary transition">
               <Link to="/" key={product.id}>
                 {product.sale && (
                   <Badge variant="destructive" className="absolute top-4">
@@ -116,7 +116,7 @@ export function Products() {
                 />
                 <div className="flex justify-between items-center">
                   <div>
-                    <h3 className="">{product.name}</h3>
+                    <h4 className="hover:text-primary">{product.name}</h4>
                     <div className="flex items-center gap-2">
                       <span className="text-lg font-semibold">
                         ${product.price.toFixed(2)}

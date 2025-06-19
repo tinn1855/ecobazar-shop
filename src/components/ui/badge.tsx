@@ -18,8 +18,7 @@ const badgeVariants = cva(
         blue: 'border-transparent bg-blue text-blue-foreground hover:bg-blue/80',
         black:
           'border-transparent bg-black text-black-foreground hover:bg-black/80',
-        orange:
-          'border-transparent bg-orange text-orange-foreground hover:bg-orange/80',
+        orange: 'border-transparent bg-orange text-orange-foreground',
         red: 'border-transparent bg-destructive/20 text-destructive hover:bg-red/80',
       },
     },
