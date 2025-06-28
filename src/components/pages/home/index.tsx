@@ -4,6 +4,7 @@ import { TopBar } from '@/components/common/top-bar';
 import { BenefitsSection } from '@/components/molecules/benefits-section';
 import { Categories } from '@/components/molecules/categories';
 import { HeroSection } from '@/components/molecules/hero-section';
+import { HotDeals } from '@/components/molecules/hot-deals';
 import { Products } from '@/components/molecules/products';
 import { PromotionsSection } from '@/components/molecules/promotions-section';
 
@@ -20,6 +21,9 @@ export function Home() {
         <Categories />
         <Products />
         <PromotionsSection />
+      </div>
+      <div className="bg-gray">
+        <HotDeals />
       </div>
     </div>
   );
