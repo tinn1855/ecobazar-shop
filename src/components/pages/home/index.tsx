@@ -1,3 +1,4 @@
+import { Footer } from '@/components/common/footer';
 import { Header } from '@/components/common/header';
 import { NavBar } from '@/components/common/nav-bar';
 import { TopBar } from '@/components/common/top-bar';
@@ -22,9 +23,10 @@ export function Home() {
         <Products />
         <PromotionsSection />
       </div>
-      <div className="bg-gray">
+      {/* <div className="bg-gray">
         <HotDeals />
-      </div>
+      </div> */}
+      <Footer></Footer>
     </div>
   );
 }

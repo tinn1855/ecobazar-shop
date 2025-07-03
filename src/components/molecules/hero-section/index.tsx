@@ -27,7 +27,7 @@ export function HeroSection() {
                     <rect x="0.5" width="2" height="65" fill="#84D187" />
                   </svg>
                   <div className="space-y-2">
-                    <p className="text-xl font-semibold">
+                    <div className="text-xl font-semibold">
                       Sale up to{' '}
                       <Badge
                         variant={'orange'}
@@ -35,7 +35,7 @@ export function HeroSection() {
                       >
                         30% OFF
                       </Badge>
-                    </p>
+                    </div>
                     <p>Free shipping on all your order.</p>
                   </div>
                 </div>
