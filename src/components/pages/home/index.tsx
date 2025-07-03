@@ -6,6 +6,7 @@ import { BenefitsSection } from '@/components/molecules/benefits-section';
 import { Categories } from '@/components/molecules/categories';
 import { HeroSection } from '@/components/molecules/hero-section';
 import { HotDeals } from '@/components/molecules/hot-deals';
+import { Newsletter } from '@/components/molecules/newsletter';
 import { Products } from '@/components/molecules/products';
 import { PromotionsSection } from '@/components/molecules/promotions-section';
 
@@ -26,7 +27,8 @@ export function Home() {
       {/* <div className="bg-gray">
         <HotDeals />
       </div> */}
-      <Footer></Footer>
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
